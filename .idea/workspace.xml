@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa900d57-e9ed-4e5f-9d9f-3662c5baf45d" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Note8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Note8Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/PhoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/PhoneSaler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/S8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/S8Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Additionalinfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Note8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/PhoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/PhoneSaler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/S8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/refactorguru/factory/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/refactorguru/factory/buttons/HtmlButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/refactorguru/factory/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/refactorguru/factory/factory/Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +45,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Emre KARA/IdeaProjects/DesignPattern/src/main/java/creational/abstractfactory"
+    "last_opened_file_path": "C:/Users/Emre KARA/IdeaProjects/DesignPattern/src/main/java/creational/abstractfactory",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,7 +56,7 @@
       <recent name="C:\Users\Emre KARA\IdeaProjects\DesignPattern\src\main\java\creational\abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.creational.abstractfactory.PhoneSaler">
+  <component name="RunManager" selected="Application.PhoneSaler">
     <configuration name="PhoneSaler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.factory.PhoneSaler" />
       <module name="DesignPattern" />
@@ -91,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.creational.abstractfactory.PhoneSaler" />
         <item itemvalue="Application.PhoneSaler" />
+        <item itemvalue="Application.creational.abstractfactory.PhoneSaler" />
       </list>
     </recent_temporary>
   </component>
