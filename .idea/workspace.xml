@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa900d57-e9ed-4e5f-9d9f-3662c5baf45d" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Emlakci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/EmlakciV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Ev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/EvBuilder.java" afterDir="false" />
+    <list default="true" id="aa900d57-e9ed-4e5f-9d9f-3662c5baf45d" name="Changes" comment="builder added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependecyinjection/AutoCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependecyinjection/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependecyinjection/DieselEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependecyinjection/ElectricEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependecyinjection/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependecyinjection/GasolineEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependecyinjection/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solidtraining/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solidtraining/DieselEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solidtraining/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +61,7 @@
       <recent name="C:\Users\Emre KARA\IdeaProjects\DesignPattern\src\main\java\creational\abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmlakciV2">
+  <component name="RunManager" selected="Application.dependecyinjection.main">
     <configuration name="Berkay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.factory.Berkay" />
       <module name="DesignPattern" />
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.Example" />
+    <configuration name="dependecyinjection.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dependecyinjection.main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.factory.*" />
+          <option name="PATTERN" value="dependecyinjection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneSaler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.PhoneSaler" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solidtraining.main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.factory.*" />
+          <option name="PATTERN" value="solidtraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dependecyinjection.main" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.EmlakciV2" />
         <item itemvalue="Application.Emlakci" />
         <item itemvalue="Application.Berkay" />
-        <item itemvalue="Application.Example" />
-        <item itemvalue="Application.PhoneSaler" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +148,8 @@
       <workItem from="1658673759972" duration="3521000" />
       <workItem from="1659264715571" duration="3909000" />
       <workItem from="1659507928415" duration="56000" />
-      <workItem from="1659861205950" duration="4675000" />
+      <workItem from="1659861205950" duration="6932000" />
+      <workItem from="1660386995367" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1658673793771</created>
@@ -151,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658673793771</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="builder added">
+      <created>1659994274782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659994274782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +184,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="builder added" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/solidtraining/Car.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
